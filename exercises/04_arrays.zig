@@ -44,9 +44,9 @@ pub fn main() void {
 
     // (Problem 3)
     // Use the len property to get the length of the array:
-    //    const length = some_primes;
+    const length = some_primes.len;
 
-    std.debug.print("First: {}, Fourth: {}, {}", .{
-        first, fourth, //length,
+    std.debug.print("First: {}, Fourth: {}, Length: {}", .{
+        first, fourth, length,
     });
 }
